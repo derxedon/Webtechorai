@@ -1,0 +1,13 @@
+#formDiv{
+    width: 100%;
+    margin-left: 15px;
+    margin-top: auto;
+}
+[type="submit"] {
+    background-color: gold;
+    border:3px solid grey;
+    color: black;
+    height: 25px;
+    font-size: 14pt;
+    font-family: "Tempus Sans ITC";
+}

@@ -1,0 +1,77 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <link rel="stylesheet" type="text/css" href="css/index2.css">
+    <script type="application/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="application/javascript" src="js/index3.js"></script>
+</head>
+<body onload="init()">
+<script>
+    $(document).ready(function (){
+        $("#btn").click(function () {
+          alert($("#test").attr("href"));
+        }
+        )
+    })
+</script>
+
+<div id="everything">
+    <div id= "header">
+        <div id= "banner">
+
+            <div id= "menuBar">
+            <!-- <table width="100%"> -->
+
+                       <div id="Library">
+                        <td><span class="menuButton"><a href="index.html">Home</a></span></td>
+                        <td><span class="menuButton"><a href="bookform.html">Add Books</a></span></td>
+                        <td><span class="menuButton"><a href="authorform.html">Add Authors</a></span></td>
+                        <td><span class="menuButton"><a onClick="openAuthors()">Open Authors</a></span></td>
+                       </div>
+
+                <!--</table> -->
+            </div>
+            Library
+        </div>
+    </div>
+    <div id= "content">
+        <button id="btn">Hit me</button>
+        <h2>Welcome in the library of endless Lorem ipsum</h2>
+        <table width="100%">
+            <tr>
+                <td><img src='images/asd.jpg' width="200px"></td>
+                <td>
+                    <h1>Address</h1>
+                    <table class="innerTable">
+                        <tr>
+                            <td>City</td>
+                            <td>Miskolc</td>
+                        </tr>
+                        <tr>
+                            <td>ZipCode</td>
+                            <td>3515</td>
+                        </tr>
+                        <tr>
+                            <td>Street</td>
+                            <td>Lorem Ipsum 12</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <h1>Made by:</h1>
+                    <ul>
+                        <li>Name: Satan Adam</li>
+                        <li>Neptun code: CLJZFF
+                    </ul>
+                    <ol>
+                        <li>asdasd</li>
+                        <li>blabla</li>
+                    </ol>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+</div>

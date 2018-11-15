@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<div id="formDiv">
+    <form action="addAuthor" method="post" class="form">
+        <h2>Szerző Hozzáadása</h2>
+        <table>
+            <tr>
+                <td>Név</td>
+                <td><input type="text" name="name" required="required" autofocus></td>
+            </tr>
+
+            <tr>
+                <td>Nemzetiség</td>
+                <td><select name="nationality" required="required">
+                    <option value="Hungarian">Magyar</option>
+                    <option value="British">Angol</option>
+                    <option value="American">Amerikai</option>
+                    <option value="Turkish">Török</option>
+
+                </td>
+            </tr>
+            <tr>
+                <td>Született</td>
+                <td><input type="Date" name="Birthdate" required="required"></td>
+            </tr>
+
+        </table>
+        <br>
+
+        <input type="submit" name="insert" Value="Add Author"/>
+
+    </form>
+
+</div>
+</html>

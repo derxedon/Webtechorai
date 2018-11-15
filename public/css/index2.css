@@ -1,0 +1,95 @@
+body {
+    background-image: url("http://ujnautilus.info/wp-content/uploads/2011/12/HATTER-e1394571492553.jpg");
+ /*   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: blue; */
+}
+
+#karate{
+    height: 100%;
+    width: 70%;
+    color: burlywood;
+    border: 1px solid blue;
+    margin-left: 15%;
+    background-color: black;
+    font-size: 60pt;
+    text-align: center;
+    padding: auto;
+}
+
+/* a:visited{
+    color: darkgoldenrod;
+}
+a:link{
+    color: aqua;
+}
+*/
+#menuBar{
+    position: center;
+    font-size: 17px;
+    margin-left: 25%;
+    background: black;
+    margin-top: 30px;
+    border: 1px solid blue;
+    width: 50%;
+}
+ .menuButton , .menuButton1 , .menuButton2 , .menuButton3 {
+    position: center;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid grey;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: auto;
+    margin: 15px;
+     color: burlywood;
+     background-color: black;
+
+}
+#stuff {
+    border: 1px solid blue;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 16pt;
+    color: burlywood;
+    background-color: black;
+    margin-top: 30px;
+    height: 400px;
+}
+.karalabe{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 14pt;
+}
+p {
+    margin-left: 15px;
+}
+img {
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    border: 2px solid grey;
+}
+.innerTable{
+    width: auto;
+}
+#formDiv, #cuccos {
+    width: 100%;
+    margin-left: 15px;
+    margin-top: auto;
+}
+[type="submit"] {
+    background-color: gold;
+    border:3px solid grey;
+    color: black;
+    height: 25px;
+    font-size: 14pt;
+    font-family: "Tempus Sans ITC";
+}
+#konyvek {
+    border: 2px solid grey;
+    padding: 8px;
+    font-size: 14pt;
+}

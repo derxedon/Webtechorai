@@ -1,0 +1,62 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <link rel="stylesheet" type="text/css" href="css/authorform2.css">
+</head>
+<body onload="init()">
+<style></style>
+
+<div id="everything">
+    <div id="header">
+        <div id="banner">
+
+            <div id="menuBar">
+                <!-- <table width="100%"> -->
+
+                <div id="Library">
+                    <td><span class="menuButton"><a href="index.html">Home</a></span></td>
+                    <td><span class="menuButton"><a href="bookform.html">Add Books</a></span></td>
+                    <td><span class="menuButton"><a href="authorform.html">Add Authors</a></span></td>
+                    <td><span class="menuButton"><a href="asd.html">asd</a></span></td>
+                </div>
+
+                <!--</table> -->
+            </div>
+            Library
+        </div>
+    </div>
+</div>
+<div id="formDiv">
+<form action="addAuthor" method="post" class="form">
+<table>
+    <tr>
+    <td>Név</td>
+    <td> <input type="text" name="name" required="required" autofocus>  </td>
+</tr>
+
+<tr>
+    <td>Nationality</td>
+    <td> <select name="nationality" required="required">
+        <option value="Hungarian">Magyar</option>
+        <option value="British">Angol</option>
+        <option value="American">Amerikai</option>
+        <option value="Turkish">Török</option>
+
+    </td>
+</tr>
+    <tr>
+        <td>Birthdate</td>
+        <td> <input type="Date" name="Birthdate" required="required"></td>
+    </tr>
+    <tr>
+</table>
+
+    <input type="submit" name="insert" Value="Add Author"/>
+
+</form>
+
+</div>
+<div id="help"></div>
+</body>
+</html>

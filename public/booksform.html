@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<div id="formDiv">
+    <form action="addBook" method="post" class="form">
+        <h2>Könyv Hozzáadása</h2>
+        <table>
+            <tr>
+                <td>Cím</td>
+                <td><input type="text" name="title" required="required" autofocus></td>
+            </tr>
+
+            <tr>
+                <td>Műfaj</td>
+                <td><select name="genre" required="required">
+                    <option value="Science-fiction">Sci-fi</option>
+                    <option value="Fantasy">Fantasy</option>
+                    <option value="Educational">Tankönyv</option>
+                    <option value="Novel">Regény</option>
+                </td>
+            </tr>
+            <tr>
+                <td>Író</td>
+                <td><input type="text" name="author" required="required"></td>
+            </tr>
+            <tr>
+                <td>Darabszám</td>
+                <td><input type="number"  name="quantity" required="required"></td>
+            </tr>
+            <tr>
+                <td>Kivehető</td>
+                <td><select name="available" required="required">
+                    <option value="1">Bent van</option>
+                    <option value="0">Nincs bent</option>
+                </td>
+            </tr>
+            <tr>
+                <td>Kiadó</td>
+                <td><input type="text"  name="publisher" required="required"></td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" name="insert" Value="Add Book"/>
+
+    </form>
+
+</div>
+</html>

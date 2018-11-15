@@ -1,0 +1,17 @@
+.karalabe{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 14pt;
+}
+p {
+    margin-left: 15px;
+}
+img {
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    border: 2px solid grey;
+}
+.innerTable{
+    width: auto;
+}
